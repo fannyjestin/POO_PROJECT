@@ -78,7 +78,7 @@ class HumanPlayer < Player
     de2 = rand(1..6)
       if de2 == 1 
         puts "Tu as lancé #{de2}. Malhreusement mon brave, tu n'as rien trouvé..."
-      elsif ( de2 <= 2 && de2 >=5 ) 
+      elsif ( de2 <=5 ) 
         @life_points = @life_points + 50
         puts "Youhou, dingo ! Tu as lancé #{de2}. Tu as trouvé un pack de +50 points de vie!"
       else @life_points = @life_points + 80
