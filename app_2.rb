@@ -99,10 +99,8 @@ enemies << player2
 	    end 
 
 
- 	if enemies.each{|player| player.life_points < 0 } 
- 		then puts "BRAVO TU AS GAGNEEEEE ! ❀ ヅ ❤ ♫ "
- 	  else puts "LOOSEEER ! T'as perdu contre les deux Jojo ! (⌣̩̩́_⌣̩̩̀) (ʃ_⌣̀ )" 
- 	end 
+(user.life_points > 0)? (puts "BRAVO TU AS GAGNEEEEE ! ❀ ヅ ❤ ♫ !") : (puts "LOOSEEER ! T'as perdu contre les deux Jojo ! (⌣̩̩́_⌣̩̩̀) (ʃ_⌣̀ )")
+
 
 
 
